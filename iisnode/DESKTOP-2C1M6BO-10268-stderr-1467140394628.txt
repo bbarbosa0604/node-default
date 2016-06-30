@@ -1,0 +1,2 @@
+Tue, 28 Jun 2016 18:59:54 GMT express-session deprecated undefined resave option; provide resave option at config\express.js:26:13
+Tue, 28 Jun 2016 18:59:54 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at config\express.js:26:13

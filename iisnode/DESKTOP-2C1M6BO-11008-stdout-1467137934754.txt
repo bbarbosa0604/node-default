@@ -1,0 +1,7 @@
+express-load: Converting extension list to regular expression
+express-load: Using regular expression/(.*)\.(js$|node$|json$|coffee$|sjs)/for extenstion matching
+express-load: Loaded *.routes.home
+express-load: Loaded *.objects.Mysql
+express-load: Loaded *.objects.Page
+express-load: All things loaded
+34

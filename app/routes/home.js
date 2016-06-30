@@ -1,12 +1,14 @@
 module.exports = function(app) {
-    app.get("/app.js",function(req, res) {
-        var connection = app.objects.connectionFactory();
-        var produtos = new app.objects.ProdutoDao(connection);
-
-        produtos.lista(function(error,results,fields){
-            res.render('home/index',{livros:results});
+    
+    app.get("/app.js", function(req, res) {
+        
+        var page = new app.objects.Page({
+        	req: req,
+        	res: res,
+        	path: "home/index",
+        	config: {}
         });
-        connection.end();
-
+    
     });
+    
 }
